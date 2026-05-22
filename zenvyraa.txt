@@ -1,0 +1,39 @@
+zenvyra
+
+// import React from "react";
+// import { Link } from "react-router-dom";
+// import { HiOutlineMenu } from "react-icons/hi";
+
+// function Navbar() {
+//   return (
+//     <div className='fixed z-[999] w-full px-[5vw] md:px-[3.5vw] py-[3vh] md:py-[5vh] flex justify-between items-center'>
+
+//       {/* Logo */}
+//       <div className="w-[18vw] md:w-[10vw]">
+//         <Link to="/"> <img src="logo.png" alt="Logo" className="w-full"/></Link>
+//       </div>
+
+//       {/* Nav */}
+//       <div className="hidden md:flex gap-10 uppercase font-semibold text-[#d5d1d1]">
+//         {["Services", "About us", "Insights", "Contact us"].map((item, index) => (
+//           <Link key={index} className="text-[1rem] tracking-wide"
+//           to={
+//               item === "Services" ? "/services" :
+//               item === "About us" ? "/aboutus" :
+//               item === "Insights" ? "/insights" :
+//               "/contactus"
+//             }>
+//             {item}
+//           </Link>
+//         ))}
+//       </div>
+
+//       {/* Mobile Menu Icon */}
+//       <div className="md:hidden text-white text-2xl">
+//         <HiOutlineMenu />
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Navbar;

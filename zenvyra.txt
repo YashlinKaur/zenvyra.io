@@ -1,0 +1,48 @@
+// import React from "react";
+
+// function Cards() {
+//   return (
+//     <div className="w-full h-screen px-10 py-10 text-[#dcdada] border-t-2 border-[#8a8989] ">
+//         <h1 className="text-[2.8vw] leading-[3.5vw] tracking-tight py-10 font-[Inter] mb-[6vh]"> We craft <span className="text-[#b5f364]">immersive</span> digital experiences focused on modern interaction, refined motion, and cinematic visual storytelling. </h1>
+
+//         <div className="h-[60vh] w-full flex items-center gap-10 ">
+//           <div className="card-container h-full w-full bg-[#222121] rounded-xl p-10 flex flex-col justify-between">
+//               <h1 className="text-[1.2vw] uppercase"> <span className="text-[#b5f364]">01</span>  / Development </h1>
+//               <div className="flex flex-col gap-2">
+//                   <h1 className="text-[1.5vw]"> Frontend <br/> Development </h1>
+//                   <div className="h-0.5 w-7 bg-[#b5f364]"></div>
+//               </div>
+//               <p className="text-[2.3vh] font-['Inter']">High-performance websites built with modern technologies and smooth, interactive experiences.</p>
+//               <div className="w-fit border border-[#b5f364] text-[#b5f364] py-1.5 px-8 -tracking-tight font-['Inter'] rounded-full">
+//                 Pixel Perfect • Fast • Scalable
+//               </div>
+//           </div>
+//           <div className="card-container h-full w-full bg-[#222121] rounded-xl p-10 flex flex-col justify-between ">
+//               <h1 className="text-[1.2vw] uppercase"> <span className="text-[#b5f364]">02</span> / Design </h1>
+//               <div className="flex flex-col gap-2">
+//                   <h1 className="text-[1.5vw]"> UI / UX <br/> Design </h1>
+//                   <div className="h-0.5 w-7 bg-[#b5f364]"></div>
+//               </div>
+//               <p className="text-[2.3vh] font-['Inter']">Clean, minimal and user-focused designs that create clarity and engagement.</p>
+//               <div className="w-fit border border-[#b5f364] text-[#b5f364] py-1.5 px-8 -tracking-tight font-['Inter'] rounded-full">
+//                 Intuitive • Clean • Engaging
+//               </div>
+//           </div>
+//           <div className="card-container h-full w-full bg-[#222121] rounded-xl p-10 flex flex-col justify-between ">
+//               <h1 className="text-[1.2vw] uppercase"> <span className="text-[#b5f364]">03</span> / Brand Experience </h1>
+//               <div className="flex flex-col gap-2">
+//                   <h1 className="text-[1.5vw]"> Brand <br/> Experience </h1>
+//                   <div className="h-0.5 w-7 bg-[#b5f364]"></div>
+//               </div>
+//               <p className="text-[2.3vh] font-['Inter']">Digital identity and experiences that help brands stand out and leave a lasting impact.</p>
+//               <div className="w-fit border border-[#b5f364] text-[#b5f364] py-1.5 px-8 -tracking-tight font-['Inter'] rounded-full">
+//                 Identity  •  Strategy  •  Impact
+//               </div>
+//           </div>
+//         </div>
+//     </div>
+//   );
+// }
+
+// export default Cards;
+
