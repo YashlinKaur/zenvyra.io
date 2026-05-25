@@ -31,15 +31,15 @@ function LandingPage() {
         </p>
 
         <div className="flex items-center justify-center md:justify-end gap-3">
-          <button className="border border-[#8e8e8e] px-5 py-2 rounded-full uppercase hover:bg-white hover:text-black transition-all duration-300
-              sm:px-6 sm:py-2.5 text-sm sm:text-base ">     
+          <button className="border border-[#8e8e8e] rounded-full uppercase hover:bg-white hover:text-black transition-all duration-300
+              px-5 py-2 sm:px-10 sm:py-2.5 text-sm sm:text-base ">     
              Start a Project
           </button>
 
           <div className="h-9 w-9 border border-[#8e8e8e] flex items-center justify-center rounded-full
               hover:bg-white hover:rotate-45 hover:text-black transition-all duration-300
               sm:h-10 sm:w-10 ">
-            <GoArrowUpRight />
+            <GoArrowUpRight  className="text-[22px]"/>
           </div>
           
         </div>

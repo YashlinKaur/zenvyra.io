@@ -1,7 +1,33 @@
 import React from "react";
-import { HomeCard } from "./HomeCards";
 
 function Cards() {
+
+  const HomeCard = [
+  {
+    id: "01",
+    category: "DEVELOPMENT",
+    title: "Frontend Development",
+    description: "High-performance websites built with modern technologies and smooth, interactive experiences.",
+    tags: ["Pixel Perfect", " • ", "Fast", " • " , "Scalable"],
+  },
+
+  {
+    id: "02",
+    category: "DESIGN",
+    title: "UI / UX Design",
+    description: "Clean, minimal and user-focused designs that create clarity and engagement.",
+    tags: ["Intuitive", " • ", "Clean", " • ", "Engaging"],
+  },
+
+  {
+    id: "03",
+    category: "BRAND EXPERIENCE",
+    title: "Brand Experience",
+    description: "Digital identity and experiences that help brands stand out and leave a lasting impact.",
+    tags: ["Identity", " • ", "Strategy", " • ", "Impact"],
+  },
+];
+
   return (
     <div className="w-full min-h-screen border-t border-[#8a8989] text-white px-5 sm:px-8 md:px-12 lg:px-[5vw] py-16 lg:py-[8vh] flex flex-col gap-10 lg:gap-14 overflow-hidden relative bg-black">
 

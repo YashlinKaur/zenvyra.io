@@ -1,7 +1,16 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
+
 import { CiGrid41 } from "react-icons/ci";
 import { LuChartNoAxesCombined } from "react-icons/lu";
+import { LuPalette } from "react-icons/lu";
+import { LuCodeXml } from "react-icons/lu";
+import { LuBadgeDollarSign } from "react-icons/lu";
+import { LuBriefcaseBusiness } from "react-icons/lu";
+import { LuCpu } from "react-icons/lu";
+import { LuTrendingUp } from "react-icons/lu";
+
+
 import { MdOutlineCalendarToday } from "react-icons/md";
 import { IoIosTimer } from "react-icons/io";
 import { FiTrendingUp } from "react-icons/fi";
@@ -9,12 +18,12 @@ import { FiTrendingUp } from "react-icons/fi";
 function FeaturedInsights() {
   const topics = [
     { name: "All Insights", icon: <CiGrid41 /> },
-    { name: "Design", icon: <LuChartNoAxesCombined /> },
-    { name: "Development", icon: <CiGrid41 /> },
-    { name: "Brand", icon: <CiGrid41 /> },
-    { name: "Strategy", icon: <CiGrid41 /> },
-    { name: "Technology", icon: <CiGrid41 /> },
-    { name: "Trends", icon: <CiGrid41 /> },
+    { name: "Design", icon: <LuPalette /> },
+    { name: "Development", icon: <LuCodeXml /> },
+    { name: "Brand", icon: <LuBadgeDollarSign /> },
+    { name: "Strategy", icon: <LuBriefcaseBusiness /> },
+    { name: "Technology", icon: <LuCpu /> },
+    { name: "Trends", icon: <LuTrendingUp /> },
   ];
 
   return (

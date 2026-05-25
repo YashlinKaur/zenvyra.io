@@ -30,7 +30,7 @@ function InsightHero() {
           Explore our thoughts on digital design, technology, brand experiences, and everything in between. Knowledge that fuels better digital experiences.
         </p>
 
-        <button className="border border-[#b5f364] text-[#e8e6e6] rounded-2xl px-6 sm:px-8 py-2 uppercase mt-6 flex items-center gap-3 sm:gap-5 text-[15px] sm:text-[18px] md:text-[18px] hover:bg-[#b5f364] hover:text-black transition-all duration-300">
+        <button className="border text-[#e8e6e6] rounded-2xl px-6 sm:px-8 py-2 uppercase mt-6 flex items-center gap-3 sm:gap-5 text-[15px] sm:text-[18px] md:text-[18px] hover:bg-[#b5f364] hover:text-black transition-all duration-300">
           Explore Insights
           <GoArrowUpRight className="text-[22px] sm:text-[28px]" />
         </button>
