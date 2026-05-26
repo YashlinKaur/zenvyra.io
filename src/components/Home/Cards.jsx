@@ -63,7 +63,7 @@ function Cards() {
       </motion.h1>
 
       {/* Cards Section */}
-      <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8">
+      <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8 overflow-hidden">
 
         {HomeCard.map((card, index) => (
           <motion.div
@@ -72,11 +72,10 @@ function Cards() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{
-              duration: 0.8,
-              delay: index * 0.2,
+              duration: 0.5,
+              delay: index * 0.1,
               ease: [0.22, 1, 0.36, 1],
             }}
-
             whileHover={{
               y: -12,
               scale: 1.02,
