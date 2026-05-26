@@ -40,8 +40,15 @@ function Navbar() {
         {/* Desktop Nav */}
         <div className="hidden md:flex gap-10 uppercase font-semibold text-[#d5d1d1]">
           {navLinks.map((item, index) => (
-            <Link key={index} to={item.path} className=" text-[1rem] tracking-wide hover:text-[#b5f364] transition-all duration-300">
-              {item.name}
+            <Link
+              key={index}
+              to={item.path}
+              className="group relative text-[1rem] tracking-wide transition-all duration-300 hover:text-[#b5f364]">
+              
+                <span className="inline-block transition-all duration-300 group-hover:-translate-y-[2px]">
+                  {item.name}
+                </span>
+                <span className="absolute left-0 -bottom-1 h-[1.5px] w-0 bg-[#b5f364] transition-all duration-500 group-hover:w-full"></span>
             </Link>
           ))}
         </div>
