@@ -6,7 +6,6 @@ import { RxPeople } from "react-icons/rx";
 import { TbTargetArrow } from "react-icons/tb";
 
 const SendMessege = () => {
-
   const features = [
     {
       icon: <TbLocation />,
@@ -27,13 +26,11 @@ const SendMessege = () => {
 
   return (
     <div className="relative w-full min-h-screen bg-[#080808] text-white px-4 sm:px-6 lg:px-[3vw] py-10 flex flex-col lg:flex-row gap-10 overflow-hidden">
-
       {/* Glow */}
       <div className="absolute right-[-10%] top-[20%] w-[350px] h-[350px] bg-[#b5f364]/5 blur-[120px] rounded-full"></div>
 
       {/* LEFT SECTION */}
       <div className="relative z-10 w-full lg:w-[40%] flex flex-col gap-10">
-
         {features.map((item, index) => (
           <motion.div
             key={index}
@@ -50,7 +47,6 @@ const SendMessege = () => {
             }}
             className="relative border border-[#232323] rounded-3xl bg-[#0d0d0d] px-6 py-10 flex flex-col items-center text-center transition-all duration-300"
           >
-
             {/* Icon Circle */}
             <motion.div
               whileHover={{
@@ -63,7 +59,6 @@ const SendMessege = () => {
             </motion.div>
 
             <div className="mt-10">
-
               <h1 className="text-[22px] sm:text-[26px] font-semibold text-[#b5f364] uppercase tracking-wide">
                 {item.title}
               </h1>
@@ -71,7 +66,6 @@ const SendMessege = () => {
               <p className="text-[15px] sm:text-[18px] text-[#d4d4d4] mt-3 leading-relaxed">
                 {item.desc}
               </p>
-
             </div>
           </motion.div>
         ))}
@@ -85,7 +79,6 @@ const SendMessege = () => {
         viewport={{ once: true }}
         className="relative z-10 w-full lg:w-[60%] border border-[#232323] rounded-3xl bg-[#0d0d0d] py-8 px-5 sm:px-8 lg:px-[3vw] flex flex-col gap-5 shadow-[0_0_40px_rgba(181,243,100,0.03)]"
       >
-
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -97,39 +90,34 @@ const SendMessege = () => {
         </motion.h1>
 
         {/* Inputs */}
-        {[
-          "Your Name",
-          "Your Email",
-          "Company (Optional)",
-          "Subject",
-        ].map((placeholder, index) => (
-          <motion.input
-            key={index}
-            type="text"
-            placeholder={placeholder}
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{
-              duration: 0.7,
-              delay: 0.3 + index * 0.1,
-            }}
-            viewport={{ once: true }}
-            className="w-full bg-[#080808] px-5 py-4 rounded-xl border border-[#2a2a2a] focus:outline-none focus:border-[#b5f364] text-[15px] sm:text-[17px] placeholder:text-gray-500 transition-all"
-          />
-        ))}
+        <input required
+          type="text"
+          placeholder="Your Name"
+          className="w-full bg-[#080808] px-5 py-4 rounded-xl border border-[#2a2a2a] focus:outline-none focus:border-[#b5f364] text-[15px] sm:text-[17px] placeholder:text-gray-500 transition-all"
+        />
+        <input
+          type="email"
+          placeholder="Your Email"
+          className="w-full bg-[#080808] px-5 py-4 rounded-xl border border-[#2a2a2a] focus:outline-none focus:border-[#b5f364] text-[15px] sm:text-[17px] placeholder:text-gray-500 transition-all"
+        />
+        <input
+          type="text"
+          placeholder="Company (Optional)"
+          className="w-full bg-[#080808] px-5 py-4 rounded-xl border border-[#2a2a2a] focus:outline-none focus:border-[#b5f364] text-[15px] sm:text-[17px] placeholder:text-gray-500 transition-all"
+        />
+        <input
+          type="text"
+          placeholder="Subject"
+          className="w-full bg-[#080808] px-5 py-4 rounded-xl border border-[#2a2a2a] focus:outline-none focus:border-[#b5f364] text-[15px] sm:text-[17px] placeholder:text-gray-500 transition-all"
+        />
 
         {/* Textarea */}
-        <motion.textarea
+        <textarea
           placeholder="Tell us about your project..."
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: 0.8,
-            delay: 0.8,
-          }}
-          viewport={{ once: true }}
           className="w-full bg-[#080808] px-5 py-4 rounded-xl border border-[#2a2a2a] focus:outline-none focus:border-[#b5f364] text-[15px] sm:text-[17px] placeholder:text-gray-500 h-[220px] sm:h-[260px] resize-none transition-all"
-        />
+        >
+          {" "}
+        </textarea>
 
         {/* Button */}
         <motion.button
@@ -160,12 +148,10 @@ const SendMessege = () => {
             delay: 1.1,
           }}
           viewport={{ once: true }}
-          className='text-[13px] sm:text-[15px] flex items-center gap-2 mt-2 text-[#9fa59c] font-["Inter"]'
-        >
+          className='text-[13px] sm:text-[15px] flex items-center gap-2 mt-2 text-[#9fa59c] font-["Inter"]'>
           <GoLock />
           Your information is safe with us. We respect your privacy.
         </motion.h1>
-
       </motion.div>
     </div>
   );
