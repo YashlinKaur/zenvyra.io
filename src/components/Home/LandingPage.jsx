@@ -1,6 +1,7 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function LandingPage() {
   return (
@@ -58,10 +59,12 @@ function LandingPage() {
         </motion.p>
 
         <div className="flex items-center justify-center md:justify-end gap-3">
-          <button className="border border-[#8e8e8e] rounded-full uppercase hover:bg-white hover:text-black transition-all duration-300
-              px-5 py-2 sm:px-10 sm:py-2.5 text-sm sm:text-base ">     
-             Start a Project
-          </button>
+          <Link to="/contactus">
+            <button className="border border-[#8e8e8e] rounded-full uppercase hover:bg-white hover:text-black transition-all duration-300
+                px-5 py-2 sm:px-10 sm:py-2.5 text-sm sm:text-base ">     
+               Start a Project
+            </button>
+          </Link>
 
           <div className="h-9 w-9 border border-[#8e8e8e] flex items-center justify-center rounded-full
               hover:bg-white hover:rotate-45 hover:text-black transition-all duration-300

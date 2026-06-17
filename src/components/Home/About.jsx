@@ -1,6 +1,7 @@
 import React from "react";
 import { GoArrowUpRight } from "react-icons/go";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -75,37 +76,42 @@ function About() {
           <div className="flex flex-col sm:flex-row gap-5 sm:gap-8 text-[15px] sm:text-[16px] lg:text-[1vw]">
             
             {/* Button 1 */}
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                y: -3,
-              }}
-              whileTap={{ scale: 0.95 }} 
-              className="bg-[#222121] hover:bg-white hover:text-black transition-all duration-300 font-semibold uppercase px-8 sm:px-12 py-4 rounded-xl flex items-center justify-center gap-4 w-full sm:w-fit">
-              <p>View Projects</p>
-              <motion.div
-                whileHover={{ rotate: 45 }}
-                transition={{ duration: 0.3 }} 
-              >      
-                <GoArrowUpRight className="text-[24px]" />
-              </motion.div>
-            </motion.button>
+            <Link to="/services">
+              <motion.button
+                whileHover={{
+                  scale: 1.05,
+                  y: -3,
+                }}
+                whileTap={{ scale: 0.95 }} 
+                className="bg-[#222121] hover:bg-white hover:text-black transition-all duration-300 font-semibold uppercase px-8 sm:px-12 py-4 rounded-xl flex items-center justify-center gap-4 w-full sm:w-fit">
+                <p>View Services</p>
+                <motion.div
+                  whileHover={{ rotate: 45 }}
+                  transition={{ duration: 0.3 }} 
+                  >      
+                  <GoArrowUpRight className="text-[24px]" />
+                </motion.div>
+              </motion.button>
+            </Link>
 
             {/* Button 2 */}
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                y: -3,
-              }}
-              className="border border-[#dcdada] hover:bg-white hover:text-black transition-all duration-300 font-semibold uppercase px-8 sm:px-12 py-4 rounded-xl flex items-center justify-center gap-4 w-full sm:w-fit">
-              <p>Book a Call</p>
-              <motion.div
-                whileHover={{ rotate: 45 }}
-                transition={{ duration: 0.3 }} 
-              >      
-                <GoArrowUpRight className="text-[24px]" />
-              </motion.div>
-            </motion.button>
+            <Link to="/contactus">
+              <motion.button
+                whileHover={{
+                  scale: 1.05,
+                  y: -3,
+                }}
+                className="border border-[#dcdada] hover:bg-white hover:text-black transition-all duration-300 font-semibold uppercase px-8 sm:px-12 py-4 rounded-xl flex items-center justify-center gap-4 w-full sm:w-fit">
+                <p>Book a Call</p>
+                <motion.div
+                  whileHover={{ rotate: 45 }}
+                  transition={{ duration: 0.3 }} 
+                >      
+                  <GoArrowUpRight className="text-[24px]" />
+                </motion.div>
+              </motion.button>
+            </Link>
+
           </div>
         </motion.div>
 

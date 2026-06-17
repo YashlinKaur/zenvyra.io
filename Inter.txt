@@ -1,0 +1,294 @@
+"Hello, my name is Yashlin. I recently completed my BCA degree. During my studies, I developed a strong interest in web development, especially frontend development. I have learned HTML, CSS, JavaScript, React.js, and Git/GitHub, and I enjoy building responsive and user-friendly websites.
+
+I have worked on several personal projects where I implemented modern UI designs, responsive layouts, animations, and reusable React components. Through these projects, I improved my problem-solving skills and understanding of frontend development best practices.
+
+Currently, I am looking for an opportunity as a Frontend Developer where I can apply my skills, learn from experienced professionals, and contribute to real-world projects while continuing to grow as a developer."
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+"Hello Sir/Ma'am, my name is Yashlin. I recently completed my BCA from [College Name]. During my studies, I developed a strong interest in frontend development and started learning HTML, CSS, JavaScript, and React.js.
+
+I enjoy turning UI designs into responsive and interactive websites. I've built several projects using React, where I focused on clean design, responsiveness, and user experience.
+
+I'm currently looking for an opportunity where I can contribute my skills, gain real-world experience, and grow as a Frontend Developer."
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+"Hello Sir/Ma'am, I'm Yashlin, and I recently completed my BCA from [College Name]. I'm passionate about frontend development and have learned HTML, CSS, JavaScript, React.js, and Git/GitHub. I enjoy building responsive and user-friendly web applications, and I'm excited to start my career as a Frontend Developer while continuously learning and improving my skills."
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Questions :-----
+
+
+Why did you choose frontend development?
+Tell me about your projects.
+What is responsive design?
+What challenges did you face in your project?
+Why should we hire you?
+What are your strengths and weaknesses?
+Where do you see yourself in 5 years?
+Tell me about a challenge you faced and how you solved it.
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+HTML :------
+
+What is HTML ?
+Difference between id and class?
+Semantic & Non-Semantic Elements?
+Difference between div & span?
+What is Attribute?
+What is doctype?
+What is the difference between HTML and HTML5?
+What are semantic tags?
+Difference between <div> and <span>?
+What is the purpose of the alt attribute in images?
+What is the difference between id and class?
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+CSS :----
+
+What is the CSS Box Model?
+Difference between margin and padding?
+What is Flexbox?
+What is CSS Grid?
+What is responsive web design?
+Difference between relative, absolute, fixed, and sticky positioning?
+What are media queries?
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+JAVASCRIPT :----
+
+Difference between var, let, and const?
+Difference between == and ===?
+What are functions?
+What are arrow functions?
+What is a callback function?
+What is an array?
+Difference between null and undefined?
+What is DOM?
+What is event bubbling?
+What is event delegation?
+What are promises?
+What is async/await?
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+REACT :-----
+
+What is React?
+Why is React popular?
+What is JSX?
+What are components?
+Why React instead of plain JavaScript?
+What is the Virtual DOM?
+Difference between functional and class components?
+What are props?
+What is state?
+What is the difference between state and props?
+What is useState?
+What is useEffect?
+What is Virtual DOM?
+What is React Router?
+What is conditional rendering?
+What is a key prop in React?
+What are React Hooks?
+How do you pass data from parent to child component?
+What is lifting state up?
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Git & GitHub :-----
+
+What is Git?
+What is GitHub?
+Difference between Git and GitHub?
+What does git add . do?
+What does git commit do?
+What does git push do?
+How do you upload a project to GitHub?
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Project-Based Questions (Very Important)  :----
+
+Explain one of your React projects.
+Which technologies did you use?
+What was the biggest challenge in your project?
+How did you make your website responsive?
+How did you deploy your project?
+What features are you most proud of?
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Questions That Impress Interviewers When Answered Well :----
+
+What happens when you type a URL in the browser?
+How does React update the UI?
+Why do we use keys in lists?
+What is the difference between local storage and session storage?
+What is API integration?
+Have you used fetch or axios?
+What is npm?
+What is Vite and why did you use it?
+
+
+
+
+
+----------------------------------------------------
+|   Technology     |          Kya Hai?             |
+| ---------------- | ----------------------------- |
+|                  |                               |
+| HTML             | Markup Language               |
+| CSS              | Styling Language              |
+| JavaScript       | Programming Language          |
+| React.js         | JavaScript Library            |
+| Tailwind CSS     | CSS Framework                 |
+| Git              | Version Control System        |
+| GitHub           | Code Hosting Platform         |
+| Framer Motion    | React Animation Library       |
+| GSAP             | JavaScript Animation Library  |
+| Vite             | Build Tool / Development Tool |
+|                  |                               |
+----------------------------------------------------
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+HTML (HyperText Markup Language) :----
+
+	HTML ek markup language hai jo website ka structure banane ke liye use hoti hai. 
+	Isse headings, paragraphs, images, forms, buttons aur links create karte hain.
+	HTML website ki foundation hoti hai.
+
+Example Answer:
+		"HTML is a markup language used to create the structure of web pages. It defines elements such as headings, paragraphs, images, forms, and links."
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+CSS (Cascading Style Sheets) :----
+
+	CSS website ko attractive banane ke liye use hoti hai.
+	Isse colors, fonts, spacing, layouts aur responsiveness manage karte hain.
+	HTML structure deta hai aur CSS styling.
+
+Example Answer:
+		"CSS is used to style web pages by controlling colors, layouts, fonts, spacing, and responsiveness."
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+JavaScript :-----
+
+	JavaScript ek programming language hai.
+	Website ko interactive banati hai.
+	Buttons click karna, forms validate karna, API data fetch karna JavaScript se hota hai.
+
+Example Answer:
+		"JavaScript is a programming language used to add interactivity and dynamic behavior to websites."
+
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+React.js :------
+
+	React ek JavaScript library hai.
+	Reusable components banane mein help karti hai.
+	Single Page Applications (SPA) banane ke liye bahut popular hai.
+
+Example Answer:
+		"React is a JavaScript library used to build fast and interactive user interfaces using reusable components."
+
+-----------------------------------------------------------------------------------------------------------------------
+
+
+Tailwind CSS :----
+
+	Tailwind CSS ek utility-first CSS framework hai.
+	Isme pre-defined classes use karke styling karte hain.
+	Custom CSS likhne ka time kam ho jata hai.
+
+Example Answer:
+		"Tailwind CSS is a utility-first CSS framework that helps build responsive and modern user interfaces quickly."
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Git :-----
+
+	Git ek Version Control System hai.
+	Code changes ko track karne aur manage karne ke liye use hota hai.
+	Team collaboration mein bahut useful hai.
+
+Example Answer:
+		"Git is a version control system used to track and manage changes in source code."
+
+-----------------------------------------------------------------------------------------------------------------------
+
+GitHub :----
+
+	GitHub ek cloud-based platform hai.
+	Git repositories ko store aur share karne ke liye use hota hai.
+	Collaboration aur project hosting ke liye popular hai.
+
+Example Answer:
+		"GitHub is a platform that allows developers to store, manage, and collaborate on Git repositories."
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Framer Motion :----
+
+	Framer Motion React ke liye animation library hai.
+	Smooth animations aur transitions create karne ke liye use hoti hai.
+	React projects mein integration easy hai.
+
+Example Answer:
+		"Framer Motion is a React animation library used to create smooth and interactive animations."
+
+-----------------------------------------------------------------------------------------------------------------------
+
+GSAP (GreenSock Animation Platform) :-----
+
+	GSAP powerful JavaScript animation library hai.
+	Complex animations aur timelines create karne ke liye use hoti hai.
+	High performance animations provide karti hai.
+
+Example Answer:
+		"GSAP is a JavaScript animation library used to create high-performance and advanced web animations."
+
+-----------------------------------------------------------------------------------------------------------------------
+
+Vite :-----
+
+	Vite ek modern frontend build tool hai.
+	React projects ko fast development environment provide karta hai.
+	Hot Module Replacement (HMR) ki wajah se changes instantly dikhte hain.
+
+Example Answer:
+		"Vite is a modern build tool that provides a fast development server and optimized project builds."
+
+
+

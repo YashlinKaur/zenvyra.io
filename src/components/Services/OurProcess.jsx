@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from "framer-motion";
+import { Link } from 'react-router-dom';
 
 function OurProcess() {
   return (
@@ -113,19 +114,21 @@ function OurProcess() {
             </motion.p>
 
             {/* Button */}
-            <motion.button
-              whileHover={{
-                scale: 1.05,
-                y: -3,
-              }}
-              transition={{
-                duration: 0.5,
-              }}
-              className="border border-[#2d2d2d] bg-[#0d0d0d] uppercase rounded-full w-fit hover:bg-[#b5f364] hover:text-black hover:border-[#b5f364] transition-all duration-300 
+            <Link to="/contactus">
+              <motion.button
+                whileHover={{
+                  scale: 1.05,
+                  y: -3,
+                }}
+                transition={{
+                  duration: 0.5,
+                }}
+                className="border border-[#2d2d2d] bg-[#0d0d0d] uppercase rounded-full w-fit hover:bg-[#b5f364] hover:text-black hover:border-[#b5f364] transition-all duration-300 
                 px-8 sm:px-12 py-3 text-sm sm:text-base"
-            >
-              Start a Project
-            </motion.button>
+                >
+                Start a Project
+              </motion.button>
+            </Link>
 
           </div>
 

@@ -63,7 +63,7 @@ function Cards() {
       </motion.h1>
 
       {/* Cards Section */}
-      <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8 overflow-hidden">
+      <div className="relative z-10 w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8 ">
 
         {HomeCard.map((card, index) => (
           <motion.div

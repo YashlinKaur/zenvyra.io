@@ -11,3 +11,13 @@
   box-shadow: 0px 0px 70px rgba(198, 241, 133, 0.7);
   opacity: 0.4;
 }
+
+.footer-hover{
+  display : block; 
+  transition: all 0.6s;
+  cursor : pointer;
+}
+
+.footer-hover:hover{
+  color : rgb(0, 0, 0);
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function StartProject() {
   return (
@@ -76,9 +77,9 @@ function StartProject() {
             <span className="absolute inset-0 bg-[#b5f364] scale-x-0 group-hover:scale-x-100 origin-left transition-transform duration-500"></span>
 
             {/* Text */}
-            <span className="relative z-10">
+            <Link to="/contactus" className="relative z-10">
               Start The Project
-            </span>
+            </Link>
 
           </motion.button>
 

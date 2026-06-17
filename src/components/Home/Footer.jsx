@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -117,14 +118,14 @@ function Footer() {
                   delay: 0.5,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="font-[Inter] text-[4vw] sm:text-[2.5vw] md:text-[1.8vw] lg:text-[1vw] mb-10 lg:mb-[6vh]">
+                className="font-[Inter] text-[4vw] sm:text-[2.5vw] md:text-[1.8vw] lg:text-[1vw] mb-10 lg:mb-[6vh] w-fit">
               <h1 className="mb-4 font-bold underline">
                 Social:
               </h1>
-              <a className="block hover:text-black transition-all duration-300 cursor-pointer"> LinkedIn </a>
-              <a className="block hover:text-black transition-all duration-300 cursor-pointer"> Facebook </a>
-              <a className="block hover:text-black transition-all duration-300 cursor-pointer"> Instagram </a>
-              <a className="block hover:text-black transition-all duration-300 cursor-pointer"> Behance </a>
+              <a className="footer-hover"> LinkedIn </a>
+              <a className="footer-hover"> Facebook </a>
+              <a className="footer-hover"> Instagram </a>
+              <a className="footer-hover"> Behance </a>
             </motion.div>
 
             {/* Contact + Menu */}
@@ -155,12 +156,11 @@ function Footer() {
                 <h1 className="mb-4 font-bold underline">
                   Menu:
                 </h1>
-                <a className="block hover:text-black transition-all duration-300 cursor-pointer"> Home </a>
-                <a className="block hover:text-black transition-all duration-300 cursor-pointer"> Services </a>
-                <a className="block hover:text-black transition-all duration-300 cursor-pointer"> Our work </a>
-                <a className="block hover:text-black transition-all duration-300 cursor-pointer"> About us </a>
-                <a className="block hover:text-black transition-all duration-300 cursor-pointer"> Insights </a>
-                <a className="block hover:text-black transition-all duration-300 cursor-pointer"> Contact us </a>
+                <Link to="/" className="footer-hover"> Home </Link>
+                <Link to="/services" className="footer-hover"> Services </Link>
+                <Link to="/aboutus" className="footer-hover"> About us </Link>
+                <Link to="/insights" className="footer-hover"> Insights </Link>
+                <Link to="/contactus" className="footer-hover"> Contact us </Link>
               </div>
             </motion.div>
 
