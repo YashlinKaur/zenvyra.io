@@ -26,7 +26,7 @@ const SendMessege = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    alert("Message Sent Successfully ");
+    alert("Form Submitted Successfully");
 
     e.target.reset();
   };
